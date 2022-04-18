@@ -1,0 +1,230 @@
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    position: absolute;
+    left: 20px;
+    width: 100%;
+    height: 100vw;
+}
+
+.sidebar{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vw;
+    width: 70px;
+    background-color:#11101d;
+    padding: 6px 20px;
+
+    
+}
+
+.sidebar ul li {
+    list-style:none;
+}
+
+
+.sidebar ul li a{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+
+.sidebar ul li a i{
+    position: relative;
+    top: 100px;
+    height: 50px;
+    min-width: 50px;
+    padding: 8px; 
+}
+
+.sidebar ul li a span i{
+    position: relative;
+    top: 150px;
+}
+
+.text_portafolio{
+    display: inline-block;
+}
+
+
+.content_cuadros{
+    display: flex;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.cuadros{
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.253);
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    color: black;
+    padding-left: 10px;
+    font-weight: bold;
+    
+}
+
+.item-1{
+    flex-grow: 4;
+    background-color: rgb(215, 250, 255); 
+}
+
+.canvas{
+    margin: auto;
+    width: 300px;
+    height: 200px;
+}
+
+.item-2{
+    background-color: rgb(209, 164, 252);
+}
+
+.item-3{
+    background-color: rgb(182, 252, 164);
+}
+
+.item-4{
+    background-color: rgb(252, 253, 183);
+}
+
+.content_div{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-weight: bold;
+    align-items: center;
+
+}
+
+.content_overview{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.overview-1{
+    color: black;
+    text-decoration: none;
+    flex-grow: 6;
+}
+
+.overview-2{
+    color: black;
+    text-decoration: none;
+    flex-grow: 2;
+    
+}
+
+.overview-3,.overview-4{
+    color: black;
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+
+
+.content-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.search{
+    border-radius: 7px;
+    padding: 5px;
+}
+
+.seccion2{
+    width: 80%;
+    height: 30vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 20px;
+    
+}
+.content-market{
+    flex-grow: 4;
+}
+.ads{
+    background-color: #11101d;
+    width: 20vw;
+    height: 300px;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    flex-grow: 1;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.267);
+}
+.ads h3{
+    font-size: 25px;
+}
+.earn-now{
+    text-decoration: none;
+    color: white;
+    background-color: cornflowerblue;
+    padding: 7px;
+    border-radius: 13px;
+}
+
+.tabla{
+    min-width: 600px;
+    text-align: left;
+}
+
+.tabla th{
+    background-color: #11101d;
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+     
+}
+
+.tabla td{
+    border-bottom: 1px solid #11101d;
+    border-radius: 5px;
+    padding: 2px;
+     
+}
+
+.symbol{
+    font-weight: bold;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.logorango{
+    width: 50px;
+    height: 50px;
+}
+
+.rango{
+    text-transform: uppercase;
+}
